@@ -125,8 +125,8 @@ export default function Footer() {
               <div className="flex items-start space-x-3">
                 <Phone className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
                 <div>
-                  <p className="text-gray-300 text-sm">+XXX XXX XXX</p>
-                  <p className="text-gray-300 text-sm">+XXX XXX XXX</p>
+                  <p className="text-gray-300 text-sm">+234 703 254 1469</p>
+                  {/* <p className="text-gray-300 text-sm">+XXX XXX XXX</p> */}
                 </div>
               </div>
               <div className="flex items-start space-x-3">
@@ -139,8 +139,8 @@ export default function Footer() {
               <div className="flex items-start space-x-3">
                 <MapPin className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
                 <div>
+                  <p className="text-gray-300 text-sm">Port Harcourt</p>
                   <p className="text-gray-300 text-sm">Nigeria</p>
-                  <p className="text-gray-300 text-sm">West Africa</p>
                 </div>
               </div>
             </div>
@@ -157,7 +157,7 @@ export default function Footer() {
         >
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <p className="text-gray-300 text-sm text-center md:text-left">
-              © 2024 GOJMIVIC Energy Resources Limited. All rights reserved.
+              © 2025 GOJMIVIC Energy Resources Limited. All rights reserved.
             </p>
             <div className="flex space-x-6 text-sm">
               <a href="#" className="text-gray-300 hover:text-primary transition-colors duration-200">

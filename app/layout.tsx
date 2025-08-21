@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     "Leading provider of oilfield services, petroleum distribution, waste management, and renewable energy solutions. Your trusted partner for safe, reliable, and cost-effective energy services.",
   keywords:
     "oilfield services, petroleum distribution, waste management, renewable energy, drilling services, oil tools equipment",
-    generator: 'v0.app'
+  icons: ["fav.png", "apple-touch-icon.png"],
 }
 
 export default function RootLayout({

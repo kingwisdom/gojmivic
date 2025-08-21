@@ -4,6 +4,7 @@ import { useState, useEffect } from "react"
 import { motion, AnimatePresence } from "framer-motion"
 import { Menu, X, Phone, Mail, MapPin, ChevronRight } from "lucide-react"
 import { Button } from "@/components/ui/button"
+import Image from "next/image"
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -40,7 +41,7 @@ export default function Header() {
           <div className="flex flex-col sm:flex-row items-center gap-2 sm:gap-6">
             <div className="flex items-center gap-2 hover:text-emerald-600 transition-colors cursor-pointer">
               <Phone className="w-3 h-3 md:w-4 md:h-4" />
-              <span className="font-medium text-xs md:text-sm">+234 XXX XXX XXXX</span>
+              <span className="font-medium text-xs md:text-sm">+234 703 254 1469</span>
             </div>
             <div className="hidden sm:flex items-center gap-2 hover:text-emerald-600 transition-colors cursor-pointer">
               <Mail className="w-3 h-3 md:w-4 md:h-4" />
@@ -49,21 +50,20 @@ export default function Header() {
           </div>
           <div className="hidden md:flex items-center gap-2 hover:text-emerald-600 transition-colors cursor-pointer">
             <MapPin className="w-4 h-4" />
-            <span className="font-medium">Lagos, Nigeria</span>
+            <span className="font-medium">Portharcourt, Nigeria</span>
           </div>
         </div>
       </div>
 
       <motion.header
-        className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
-          isScrolled
-            ? "bg-white/95 backdrop-blur-xl shadow-2xl border-b border-emerald-100/50"
-            : "bg-white/95 backdrop-blur-sm shadow-sm border-b border-gray-100/50"
-        }`}
+        className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${isScrolled
+          ? "bg-white/95 backdrop-blur-xl shadow-2xl border-b border-emerald-100/50"
+          : "bg-white/95 backdrop-blur-sm shadow-sm border-b border-gray-100/50"
+          }`}
         initial={{ y: -100 }}
         animate={{ y: 0 }}
         transition={{ duration: 0.6, ease: "easeOut" }}
-        style={{ top: isScrolled ? "0" : "44px" }} // Adjust top position based on scroll to prevent overlap
+        style={{ top: isScrolled ? "0" : "44px" }}
       >
         <div className="container mx-auto px-4 py-3 md:py-5">
           <div className="flex items-center justify-between">
@@ -72,8 +72,8 @@ export default function Header() {
               whileHover={{ scale: 1.02 }}
               transition={{ type: "spring", stiffness: 400, damping: 15 }}
             >
-              <div className="w-10 h-10 md:w-12 md:h-12 bg-gradient-to-br from-emerald-500 to-emerald-600 rounded-xl flex items-center justify-center shadow-lg">
-                <span className="text-white font-bold text-lg md:text-2xl font-serif">G</span>
+              <div className="w-10 h-10 md:w-12 md:h-12 bg-gradient-to-br rounded-xl flex items-center justify-center shadow-lg">
+                <Image src="/g-logo.png" alt="Gojmivic Logo" width={100} height={80} />
               </div>
               <div>
                 <h1 className="text-xl md:text-2xl font-bold text-emerald-700 font-serif">GOJMIVIC</h1>
@@ -152,7 +152,7 @@ export default function Header() {
                     </div>
                     <div className="flex items-center gap-3 text-gray-600">
                       <MapPin className="w-4 h-4 text-emerald-600" />
-                      <span className="text-sm">Lagos, Nigeria</span>
+                      <span className="text-sm">Portharcort, Nigeria</span>
                     </div>
                   </div>
 

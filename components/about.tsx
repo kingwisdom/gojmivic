@@ -54,7 +54,7 @@ export default function About() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-16">
             <motion.div variants={itemVariants}>
               <img
-                src="/placeholder.svg?height=500&width=600"
+                src="https://justenergy.com/wp-content/uploads/2021/01/energy-in-motion-types-sources-power-image.jpg"
                 alt="GOJMIVIC Energy Resources Facility"
                 className="rounded-lg shadow-2xl w-full h-auto"
               />

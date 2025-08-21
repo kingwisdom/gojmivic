@@ -47,7 +47,7 @@ export default function Contact() {
     {
       icon: Phone,
       title: "Phone",
-      details: ["+XXX XXX XXX", "+XXX XXX XXX"],
+      details: ["+234 703 254 1469", ""],
       color: "text-primary",
     },
     {
@@ -59,13 +59,13 @@ export default function Contact() {
     {
       icon: MapPin,
       title: "Location",
-      details: ["Nigeria", "West Africa"],
+      details: ["Portharcourt", "Nigeria"],
       color: "text-primary",
     },
     {
       icon: Clock,
       title: "Business Hours",
-      details: ["Mon - Fri: 8:00 AM - 6:00 PM", "24/7 Emergency Support"],
+      details: ["Available always", "24/7 Emergency Support"],
       color: "text-primary",
     },
   ]
@@ -208,7 +208,7 @@ export default function Contact() {
                           placeholder="+XXX XXX XXX"
                         />
                       </div>
-                      <div>
+                      {/* <div>
                         <label htmlFor="service" className="block text-sm font-medium text-card-foreground mb-2">
                           Service Interest
                         </label>
@@ -233,7 +233,7 @@ export default function Contact() {
                           <option value="building">Building Materials</option>
                           <option value="other">Other</option>
                         </select>
-                      </div>
+                      </div> */}
                     </div>
 
                     <div>

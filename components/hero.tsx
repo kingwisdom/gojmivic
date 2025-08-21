@@ -10,7 +10,7 @@ export default function Hero() {
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: `linear-gradient(135deg, rgba(255, 255, 255, 0.1) 0%, rgba(5, 150, 105, 0.6) 30%, rgba(16, 185, 129, 0.5) 70%, rgba(255, 255, 255, 0.2) 100%), url('/placeholder.svg?height=1080&width=1920')`,
+          backgroundImage: `linear-gradient(135deg, rgba(255, 255, 255, 0.1) 0%, rgba(5, 150, 105, 0.6) 30%, rgba(16, 185, 129, 0.5) 60%, rgba(255, 255, 255, 0.2) 80%), url('https://www.falconenergy.co.uk/wp-content/uploads/2017/06/renewable-2232160_1280-1024x686.jpg')`,
         }}
       />
 
@@ -69,7 +69,7 @@ export default function Hero() {
             transition={{ delay: 0.2, duration: 0.8 }}
           >
             Powering Energy
-            <span className="text-gradient-primary block mt-2 slide-up">Excellence</span>
+            <span className="text-gradient-primary block mt-2 slide-up !text-green-200">Excellence</span>
           </motion.h1>
 
           <motion.p
@@ -95,7 +95,7 @@ export default function Hero() {
             <Button
               size="lg"
               variant="outline"
-              className="btn-modern-outline px-10 py-5 text-lg rounded-2xl backdrop-blur-sm bg-transparent"
+              className="px-10 py-5 text-lg rounded-2xl backdrop-blur-sm bg-transparent"
             >
               Contact Us
             </Button>

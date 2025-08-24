@@ -42,7 +42,7 @@ export default function About() {
           {/* Section Header */}
           <motion.div variants={itemVariants} className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-              About <span className="text-primary">GOJMIVIC</span>
+              About <span className="text-primary">MIRAAMAND</span>
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
               A leading provider of comprehensive energy services, dedicated to supporting the oil, gas, and renewable
@@ -55,7 +55,7 @@ export default function About() {
             <motion.div variants={itemVariants}>
               <img
                 src="https://justenergy.com/wp-content/uploads/2021/01/energy-in-motion-types-sources-power-image.jpg"
-                alt="GOJMIVIC Energy Resources Facility"
+                alt="MIRAAMAND Energy Resources Facility"
                 className="rounded-lg shadow-2xl w-full h-auto"
               />
             </motion.div>
@@ -63,8 +63,8 @@ export default function About() {
             <motion.div variants={itemVariants} className="space-y-6">
               <h3 className="text-2xl font-bold text-foreground mb-4">Your Trusted Energy Partner</h3>
               <p className="text-muted-foreground leading-relaxed">
-                GOJMIVIC ENERGY RESOURCES LIMITED is a fully integrated Oil Field Services provider dedicated to
-                supporting upstream, midstream and operations in the oil and gas industry. Our team of highly skilled
+                MIRAAMAND ENERGY RESOURCES LIMITED is a fully integrated Oil Field Services provider dedicated to
+                supporting upstream, downstream and operations in the oil and gas industry. Our team of highly skilled
                 professionals, combined with cutting-edge technology and strategic partnerships, positions us as a
                 reliable partner of choice.
               </p>

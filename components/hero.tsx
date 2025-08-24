@@ -69,7 +69,7 @@ export default function Hero() {
             transition={{ delay: 0.2, duration: 0.8 }}
           >
             Powering Energy
-            <span className="text-gradient-primary block mt-2 slide-up !text-green-200">Excellence</span>
+            <span className="text-gradient-hero block mt-2 slide-up" style={{ color: 'linear-gradient(135deg, #10b981 0%, #059669 50%, #047857 100%)' }}>Excellence</span>
           </motion.h1>
 
           <motion.p
@@ -88,17 +88,20 @@ export default function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.6, duration: 0.8 }}
           >
-            <Button size="lg" className="btn-modern px-10 py-5 text-lg rounded-2xl shadow-2xl">
-              Explore Services
-              <ArrowRight className="ml-3 w-5 h-5" />
-            </Button>
-            <Button
-              size="lg"
-              variant="outline"
-              className="px-10 py-5 text-lg rounded-2xl backdrop-blur-sm bg-transparent"
-            >
-              Contact Us
-            </Button>
+            <a href="#services">
+              <Button size="lg" className="btn-modern px-10 py-5 text-lg rounded-2xl shadow-2xl">
+                Explore Services
+                <ArrowRight className="ml-3 w-5 h-5" />
+              </Button></a>
+
+            <a href="#contact">
+              <Button
+                size="lg"
+                variant="outline"
+                className="px-10 py-5 text-lg rounded-2xl backdrop-blur-sm bg-transparent"
+              >
+                Contact Us
+              </Button></a>
           </motion.div>
 
           <motion.div

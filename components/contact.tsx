@@ -47,13 +47,13 @@ export default function Contact() {
     {
       icon: Phone,
       title: "Phone",
-      details: ["+234 703 254 1469", ""],
+      details: ["+234 705 125 3973", "+234 705 125 3978"],
       color: "text-primary",
     },
     {
       icon: Mail,
       title: "Email",
-      details: ["info@gojmivic.com", "services@gojmivic.com"],
+      details: ["info@miraamand.org.ng", "services@miraamand.org.ng"],
       color: "text-primary",
     },
     {
@@ -146,9 +146,10 @@ export default function Contact() {
                 <p className="text-muted-foreground text-sm mb-4">
                   Need immediate assistance? Our emergency response team is available 24/7.
                 </p>
-                <Button className="w-full bg-accent hover:bg-accent/90 text-accent-foreground">
-                  Emergency Contact
-                </Button>
+                <a href="tel:+2347051253959">
+                  <Button className="w-full bg-accent hover:bg-accent/90 text-accent-foreground">
+                    Emergency Contact
+                  </Button></a>
               </motion.div>
             </motion.div>
 

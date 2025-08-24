@@ -3,7 +3,7 @@
 import { motion } from "framer-motion"
 import { useInView } from "framer-motion"
 import { useRef } from "react"
-import { Drill, Wrench, Truck, Droplets, Recycle, Bug, Sun, Users, ShoppingCart, Shield, Building } from "lucide-react"
+import { Drill, Wrench, Truck, Droplets, Recycle, Bug, Sun, Users, ShoppingCart, Shield, Building, Fuel } from "lucide-react"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 
 export default function Services() {
@@ -15,7 +15,7 @@ export default function Services() {
       icon: Drill,
       title: "Oilfield Services",
       description:
-        "Comprehensive drilling support, rig services, well testing, maintenance, mud logging and drilling fluid management.",
+        "Comprehensive drilling support,production chemicals, rig services, well testing, maintenance, mud logging and drilling fluid management.",
       features: ["Drilling Support", "Well Testing", "Mud Logging", "Fluid Management"],
       gradient: "gradient-primary",
     },
@@ -93,6 +93,14 @@ export default function Services() {
       features: ["Raw Materials", "Processed Products", "Construction Supplies", "Infrastructure Materials"],
       gradient: "gradient-flow",
     },
+    {
+      icon: Fuel,
+      title: "Lubricant Services",
+      description:
+        "Comprehensive supply of lubricants for construction, oil & gas, healthcare, and industrial sectors.",
+      features: ["Lubricants", "Gasoline", "Diesel", "Petroleum Products"],
+      gradient: "gradient-flow",
+    },
   ]
 
   const containerVariants = {
@@ -114,6 +122,10 @@ export default function Services() {
         duration: 0.6,
       },
     },
+  }
+
+  const handleClick = () => {
+    window.open(`https://api.whatsapp.com/send?phone=${'2347051253959'}&text=${"Hello!%20I'm%20interested%20in%20your%20services."}`, '_blank')
   }
 
   return (
@@ -192,7 +204,7 @@ export default function Services() {
                 Our team of experts can design tailored solutions to meet your specific energy service requirements.
                 Contact us to discuss your project needs and discover how we can help you achieve excellence.
               </p>
-              <motion.button
+              <motion.button onClick={handleClick}
                 className="btn-modern gradient-primary text-primary-foreground px-12 py-4 text-lg rounded-2xl shadow-2xl"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}

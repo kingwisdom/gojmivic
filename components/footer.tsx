@@ -17,13 +17,11 @@ export default function Footer() {
     { name: "About Us", href: "#about" },
     { name: "Services", href: "#services" },
     { name: "Why Choose Us", href: "#why-choose-us" },
-    { name: "Contact", href: "#contact" },
-    { name: "Get Quote", href: "#contact" },
+    { name: "Contact", href: "#contact" }
   ]
 
   const socialLinks = [
     { icon: Facebook, href: "#", label: "Facebook" },
-    { icon: Twitter, href: "#", label: "Twitter" },
     { icon: Linkedin, href: "#", label: "LinkedIn" },
     { icon: Instagram, href: "#", label: "Instagram" },
   ]
@@ -45,8 +43,8 @@ export default function Footer() {
                 <span className="text-primary-foreground font-bold text-xl">G</span>
               </div>
               <div>
-                <h3 className="text-xl font-bold text-primary">GOJMIVIC</h3>
-                <p className="text-xs text-gray-300">Energy Resources Ltd</p>
+                <h3 className="text-xl font-bold text-primary">MIRAAMAND</h3>
+                <p className="text-xs text-gray-300">Energy Services Ltd</p>
               </div>
             </div>
             <p className="text-gray-300 mb-6 leading-relaxed">
@@ -125,15 +123,15 @@ export default function Footer() {
               <div className="flex items-start space-x-3">
                 <Phone className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
                 <div>
-                  <p className="text-gray-300 text-sm">+234 703 254 1469</p>
-                  {/* <p className="text-gray-300 text-sm">+XXX XXX XXX</p> */}
+                  <p className="text-gray-300 text-sm">+234 705 125 3973 </p>
+                  <p className="text-gray-300 text-sm">+234 705 125 3978</p>
                 </div>
               </div>
               <div className="flex items-start space-x-3">
                 <Mail className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
                 <div>
-                  <p className="text-gray-300 text-sm">info@gojmivic.com</p>
-                  <p className="text-gray-300 text-sm">services@gojmivic.com</p>
+                  <p className="text-gray-300 text-sm">info@miraamand.org.ng</p>
+                  <p className="text-gray-300 text-sm">services@miraamand.org.ng</p>
                 </div>
               </div>
               <div className="flex items-start space-x-3">
@@ -157,7 +155,7 @@ export default function Footer() {
         >
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <p className="text-gray-300 text-sm text-center md:text-left">
-              © 2025 GOJMIVIC Energy Resources Limited. All rights reserved.
+              © 2025 MIRAAMAND Energy Services Limited. All rights reserved.
             </p>
             <div className="flex space-x-6 text-sm">
               <a href="#" className="text-gray-300 hover:text-primary transition-colors duration-200">
@@ -166,9 +164,7 @@ export default function Footer() {
               <a href="#" className="text-gray-300 hover:text-primary transition-colors duration-200">
                 Terms of Service
               </a>
-              <a href="#" className="text-gray-300 hover:text-primary transition-colors duration-200">
-                Cookie Policy
-              </a>
+
             </div>
           </div>
         </motion.div>

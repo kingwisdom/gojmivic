@@ -5,7 +5,6 @@ import { motion, AnimatePresence } from "framer-motion"
 import { Menu, X, Phone, Mail, MapPin, ChevronRight } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import Image from "next/image"
-import Link from "next/link"
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -42,7 +41,7 @@ export default function Header() {
           <div className="flex flex-col sm:flex-row items-center gap-2 sm:gap-6">
             <div className="flex items-center gap-2 hover:text-emerald-600 transition-colors cursor-pointer">
               <Phone className="w-3 h-3 md:w-4 md:h-4" />
-              <span className="font-medium text-xs md:text-sm">+234 705 125 3973</span>
+              <span className="font-medium text-xs md:text-sm">+234 705 125 3959</span>
             </div>
             <div className="hidden sm:flex items-center gap-2 hover:text-emerald-600 transition-colors cursor-pointer">
               <Mail className="w-3 h-3 md:w-4 md:h-4" />
@@ -74,11 +73,11 @@ export default function Header() {
               transition={{ type: "spring", stiffness: 400, damping: 15 }}
             >
               <div className="w-10 h-10 md:w-12 md:h-12 bg-gradient-to-br rounded-xl flex items-center justify-center shadow-lg">
-                <Image src="/g-logo.png" alt="Gojmivic Logo" width={100} height={60} />
+                <Image src="/g-logo.png" alt="MIRAAMAND Logo" width={100} height={60} />
               </div>
               <div>
                 <h1 className="text-xl md:text-2xl font-bold text-emerald-700 font-serif">MIRAAMAND</h1>
-                <p className="text-xs md:text-sm text-gray-600 font-medium">Energy Resources Ltd</p>
+                <p className="text-xs md:text-sm text-gray-600 font-medium">Energy Services Ltd</p>
               </div>
             </motion.div>
 
@@ -100,7 +99,7 @@ export default function Header() {
             </nav>
 
             <div className="hidden lg:block">
-              <a href="https://wa.me/2347032541469?text=Hello!%20I'm%20interested%20in%20your%20services." target="_blank">
+              <a href="https://wa.me/2347051253959?text=Hello!%20I'm%20interested%20in%20your%20services." target="_blank">
                 <Button className="bg-gradient-to-r from-emerald-500 to-emerald-600 hover:from-emerald-600 hover:to-emerald-700 text-white px-6 xl:px-8 py-2 xl:py-3 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 font-medium">
                   Get Quote
                 </Button>
@@ -160,7 +159,7 @@ export default function Header() {
                   </div>
 
 
-                  <a href="https://wa.me/2347032541469?text=Hello!%20I'm%20interested%20in%20your%20services." target="_blank" className="w-full bg-gradient-to-r from-emerald-500 to-emerald-600 hover:from-emerald-600 hover:to-emerald-700 text-white py-4 rounded-xl shadow-lg font-medium">
+                  <a href="https://wa.me/2347051253959?text=Hello!%20I'm%20interested%20in%20your%20services." target="_blank" className="w-full bg-gradient-to-r from-emerald-500 to-emerald-600 hover:from-emerald-600 hover:to-emerald-700 text-white py-4 rounded-xl shadow-lg font-medium">
                     Get Quote
                   </a>
 

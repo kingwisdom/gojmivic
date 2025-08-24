@@ -18,7 +18,6 @@ export default function Contact() {
     name: "",
     email: "",
     phone: "",
-    service: "",
     message: "",
   })
 
@@ -31,16 +30,24 @@ export default function Contact() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
-    // Handle form submission here
-    console.log("Form submitted:", formData)
+
+    const phone = "2347051253959";
+    const message = `${formData?.name}%0A${formData?.email}%0A${formData?.message}%0A${formData?.phone}`;
+
+    window.open(
+      `https://api.whatsapp.com/send?phone=${phone}&text=${message}`,
+      "_blank"
+    );
+
     // Reset form
     setFormData({
       name: "",
       email: "",
       phone: "",
-      service: "",
       message: "",
     })
+
+
   }
 
   const contactInfo = [

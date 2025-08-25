@@ -66,7 +66,7 @@ export default function Contact() {
     {
       icon: MapPin,
       title: "Location",
-      details: ["Portharcourt", "Nigeria"],
+      details: ["2 Coca-Cola Street Omuokiri Aluu, Rivers State", "Nigeria"],
       color: "text-primary",
     },
     {

@@ -16,7 +16,7 @@ const manrope = Manrope({
 })
 
 export const metadata: Metadata = {
-  title: "MIRAAMAND Energy Resources Limited - Comprehensive Energy Services",
+  title: "MIRAAMAND Energy Services Limited - Comprehensive Energy Services",
   description:
     "Leading provider of oilfield services, petroleum distribution, waste management, and renewable energy solutions. Your trusted partner for safe, reliable, and cost-effective energy services.",
   keywords:

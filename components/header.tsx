@@ -41,7 +41,7 @@ export default function Header() {
           <div className="flex flex-col sm:flex-row items-center gap-2 sm:gap-6">
             <div className="flex items-center gap-2 hover:text-emerald-600 transition-colors cursor-pointer">
               <Phone className="w-3 h-3 md:w-4 md:h-4" />
-              <span className="font-medium text-xs md:text-sm">+234 705 125 3959</span>
+              <span className="font-medium text-xs md:text-sm">+234 705 125 3973</span>
             </div>
             <div className="hidden sm:flex items-center gap-2 hover:text-emerald-600 transition-colors cursor-pointer">
               <Mail className="w-3 h-3 md:w-4 md:h-4" />
